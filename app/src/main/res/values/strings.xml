@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BABABA</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--Facebook앱의 아이디-->
+    <string name="facebook_app_id">1841142159515314</string>
+    <string name="fb_login_protocol_scheme">fb1841142159515314</string>
+    <string name="title_activity_total_information">TotalInformationActivity</string>
+    <string name="title_activity_set_date">SetDateActivity</string>
+</resources>

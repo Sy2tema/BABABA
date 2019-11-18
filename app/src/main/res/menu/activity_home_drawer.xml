@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="My Informaion">
+            <menu>
+                <item
+                    android:id="@+id/nav_my_information"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="내 정보"
+                    />
+                <item
+                    android:id="@+id/nav_create_card"
+                    android:icon="@drawable/ic_add_black_24dp"
+                    android:title="카드 등록" />
+                <item
+                    android:id="@+id/nav_boarding"
+                    android:icon="@drawable/ic_airport_shuttle_black_24dp"
+                    android:title="이용 현황" />
+            </menu>
+        </item>
+        <item android:title="Preferences">
+            <menu>
+                <item
+                    android:id="@+id/nav_change_setting"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="정보수정"
+                    />
+                <item android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_clear_black_24dp"
+                    android:title="로그아웃" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
